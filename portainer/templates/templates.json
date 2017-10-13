@@ -1,0 +1,14 @@
+[
+  {
+    "title": "ManageIQ",
+    "description": "ManageIQ Open-Source Management Platform http://manageiq.org",
+    "categories": ["redhat"],
+    "platform": "linux",
+    "logo": "http://manageiq.org/assets/images/logo/manageiq-logo-standard.png",
+    "image": "manageiq/manageiq:latest",
+    "ports": [
+      "80/tcp", "443/tcp", "22/tcp"
+    ],
+    "volumes": ["/var/opt/rh/rh-postgresql95/lib/pgsql/data"]
+  }
+]
